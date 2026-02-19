@@ -1,12 +1,7 @@
-## 🕹️ Interactive Experiment
-<p align="center">
-  <iframe 
-    src="https://editor.p5js.org/codyviscardis/full/ggoWuNvm1" 
-    width="100%" 
-    height="500px" 
-    style="border: none;">
-  </iframe>
-</p>
+## 🕹️ The Experiment Interface
+[![Click to Play Experiment](assets/fitts_law_screenshot.png)](https://editor.p5js.org/codyviscardis/full/ggoWuNvm1)
+
+**[➔ Click here to launch the Interactive Data Collector]**
 
 # FittsLaw
 This project implements an experiment to validate Fitts' Law: $MT = a + b \cdot \log_2(\frac{2D}{W} + 1)$. Using a p5.js interface, user interaction data (Movement Time, Distance, Target Width) to calculate the Index of Difficulty and perform linear regression to determine the constants: delay and acceleration
